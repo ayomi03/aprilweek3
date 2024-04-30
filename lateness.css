@@ -1,0 +1,30 @@
+*{
+    color: green;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0;
+}
+.head{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+h2.head.tail{
+    background-color: black;
+}
+p.head{
+    background-color: coral;
+}
+
+h1{
+    color: red;
+}
+h2 + p{
+    color: tomato;
+}
+h2 ~ p{
+    color: chartreuse;
+}
+
+p::selection{
+    background-color: green;
+}
